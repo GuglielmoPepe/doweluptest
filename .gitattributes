@@ -32,3 +32,6 @@ tests/ export-ignore
 node_modules/ export-ignore
 package-lock.json export-ignore
 yarn.lock export-ignore
+
+# Exclude docs dir
+docs/ export-ignore
