@@ -2,7 +2,7 @@
 /*
  * Plugin name: Doweluptest
  * Description: This simple plugin does nothing, only gets updates from a custom server
- * Version: 1.3
+ * Version: 1.4
  * Author: Guglielmo Pepe
  * Author URI: https://www.guglielmopepe.it
  * License: GPL
@@ -139,7 +139,7 @@ function request() {
 				array(
 					'license_key' => \urlencode( \get_option( __NAMESPACE__ . '_license_key', __NAMESPACE__ . '_license_key' ) )
 				), 
-				'https://scribbles.phpapi.it/dowels/doweluptest/info.php'
+				'https://scribbles.phpapi.it/dowels/' . __NAMESPACE__ . '/info.php'
 			), 
 			array(
 				'timeout' => 10,
