@@ -2,7 +2,7 @@
 /*
  * Plugin name: Doweluptest
  * Description: This simple plugin does nothing, only gets updates from a custom server
- * Version: 1.4
+ * Version: 1.5
  * Author: Guglielmo Pepe
  * Author URI: https://www.guglielmopepe.it
  * License: GPL
