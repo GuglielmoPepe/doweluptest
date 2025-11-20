@@ -2,7 +2,7 @@ name: Build release zip
 
 on:
   push:
-    branches:
+    tags:
     - "*"
 
 jobs:
